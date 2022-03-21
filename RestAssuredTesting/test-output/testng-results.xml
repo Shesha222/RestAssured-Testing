@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16930" started-at="2022-03-17T17:59:47Z" finished-at="2022-03-17T18:00:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16930" started-at="2022-03-17T17:59:47Z" finished-at="2022-03-17T18:00:04Z">
+      <class name="ecommerce.ecommerce">
+        <test-method status="PASS" signature="Login()[pri:1, instance:ecommerce.ecommerce@5d47c63f]" name="Login" duration-ms="11810" started-at="2022-03-17T23:29:47Z" finished-at="2022-03-17T23:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="getUser()[pri:2, instance:ecommerce.ecommerce@5d47c63f]" name="getUser" duration-ms="3213" started-at="2022-03-17T23:29:59Z" finished-at="2022-03-17T23:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method status="PASS" signature="createP()[pri:4, instance:ecommerce.ecommerce@5d47c63f]" name="createP" duration-ms="1811" started-at="2022-03-17T23:30:02Z" finished-at="2022-03-17T23:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createP -->
+      </class> <!-- ecommerce.ecommerce -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

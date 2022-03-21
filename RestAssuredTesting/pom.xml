@@ -1,0 +1,72 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>RestAssured</groupId>
+  <artifactId>RestAssuredTesting</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+
+<build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.0.0-M5</version>
+<configuration>
+<includes>
+<excludes>**/*ecommerce.java</excludes>
+</includes>
+</configuration>
+        </plugin>
+         <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.10.1</version>
+          <configuration>
+            <!-- put your configurations here -->
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+<dependencies>
+<!-- To support all the depedencies -->
+<dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>4.5.1</version>
+</dependency>
+<dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>json-path</artifactId>
+      <version>4.5.1</version>
+</dependency>
+<dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>xml-path</artifactId>
+      <version>4.5.1</version>
+</dependency>
+<dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>json-schema-validator</artifactId>
+      <version>4.5.1</version>
+</dependency>
+<!-- add a jar file which is called TestNG 6.9.10-->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.9.10</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>com.squareup.retrofit2</groupId>
+    <artifactId>converter-gson</artifactId>
+    <version>2.9.0</version>
+</dependency>
+
+</dependencies>
+
+
+</project>
+
